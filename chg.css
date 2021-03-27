@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: tomato; */
+}
+.navbar{
+    display: flex;
+    margin: 0px;
+    background-color:rgb(58, 52, 52);
+    color:white;
+    align-items: center;
+}
+.heading{
+    margin:5px 10px;
+    font-size: 25px;
+}
+nav ul {
+    display: inline-flex;
+}
+.para{
+    width: 250px;
+    height: 50px;
+    border:2ps solid red;
+}
+nav li {
+    list-style: none;
+}/*
+.search{
+    align-items: flex-end;
+}*/
+#search{
+    position: relative;
+    float: right;
+}
+nav a{
+    margin:5px 20px;
+    background-color: teal;
+    border-radius: 5px;
+    color: white;
+    background-color: ;
+    text-decoration: none;
+    padding: 5px 5px;
+    
+}
+
+
+/* ************************************************************ */
+.container{
+    width: 960px;
+    margin: 5px auto;
+    flex-wrap: wrap;
+}
+.container::before{
+    content: "";
+    position: absolute;
+    /* background: url('C:/Users/hp/Documents/js_projects/notpad/img/back2.jfif') no-repeat center center/cover; */
+    background-color: red;
+    z-index: -1;
+    opacity: .8;
+    /* background:red; */
+}
+
+
+#text{
+    border:2px solid teal;  
+}
+.btn{
+    color:white;
+    background-color: teal;
+    border-radius: 5px;
+    float:left;
+    width: 85px;
+    /* padding: 5px 5px; */
+    margin: 5px 5px;
+    /* margin-bottom: 10px;; */
+}
+/* ************************************************************** */
+.subcont1{
+    border:2px solid #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    width:98%;
+    margin: 5px 10px;
+    /* flex-wrap: wrap; */
+    height: auto;
+
+}
+.subcont{
+    border:2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.para{
+    overflow-y: scroll;
+    width: 98%;
+
+}
+.border{
+    border-bottom:2px solid rgb(156, 148, 148); 
+    margin: 6px 3px ;
+    display: block;
+}
+.subnotes{
+    margin: 5px 5px;
+    padding: 5px 10px;
+}
+.notessection{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.top{
+    display: inline-flex;
+    font-size: 16px;
+    justify-content: space-between;
+}
